@@ -6,6 +6,10 @@ export const SearchContainer = styled.div`
   margin-left: 14rem;
   padding: 0 20px;
   align-items: center;
+
+  @media screen and (max-width: 425px) {
+    margin-left: 4rem;
+  }
 `;
 
 export const SearchBar = styled.div`
