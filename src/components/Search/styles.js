@@ -18,7 +18,7 @@ export const SearchBar = styled.div`
 
   input {
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 10px;
     border: 1px solid #000;
 
     &:hover,
