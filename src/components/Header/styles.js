@@ -14,6 +14,19 @@ export const HeaderContainer = styled.nav`
   a img {
     width: 15rem;
   }
+
+  span {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
 `;
 
 export const CartIcon = styled(AiOutlineShoppingCart)`

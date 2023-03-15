@@ -9,7 +9,10 @@ export const Header = () => {
         <a href="/">
           <img src={Logo} alt="Marvel Studio Logo" />
         </a>
-        <CartIcon />
+        <div>
+          <span>0</span>
+          <CartIcon />
+        </div>
       </HeaderContainer>
     </>
   );
