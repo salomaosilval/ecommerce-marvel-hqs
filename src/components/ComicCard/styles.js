@@ -18,10 +18,11 @@ export const HQSList = styled.ul`
   }
 
   div {
-    background-color: #ed1d24;
+    background-color: #000;
     border-radius: 0 0 1rem 1rem;
     cursor: pointer;
     transition: 0.2s ease-in;
+    padding-bottom: 1rem;
 
     &:hover {
       transform: scale(1.05);
@@ -38,5 +39,36 @@ export const HQSList = styled.ul`
     font-size: 1.5rem;
     color: #fff;
     font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 20rem;
+    height: 5rem;
+    margin: 0 auto;
+    background-color: #ed1d24;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 1rem;
+    transition: background-color 0.5s ease;
+
+    &:hover {
+      background-color: #7b0f12;
+    }
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
   }
 `;

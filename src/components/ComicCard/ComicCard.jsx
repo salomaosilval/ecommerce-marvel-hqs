@@ -10,6 +10,10 @@ export const ComicCard = (props) => {
           <div key={comic.id}>
             <img src={`${comic.thumbnail.path}.${comic.thumbnail.extension}`} alt={comic.title} />
             <span>{comic.title}</span>
+            <footer>
+              <span>R$4,99</span>
+              <button>Comprar</button>
+            </footer>
           </div>
         ))}
       </HQSList>
