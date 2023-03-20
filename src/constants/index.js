@@ -1,0 +1,2 @@
+export const DESCRIPTION =
+  "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam cumque officia recusandae illo ipsam quos, nostrum assumenda autem provident, unde eaque expedita voluptate debitis vel qui dolorum beatae minima animi, voluptatibus atque dicta! Blanditiis, ipsa exercitationem minima autem distinctio adipisci ut consequatur esse officia aut fugit quos enim perferendis est!";
