@@ -1,28 +1,39 @@
 import styled from "styled-components";
 
 export const HQSContainer = styled.div`
-  width: 80vw;
+  width: 90vw;
   margin: 0 auto;
   overflow-x: hidden;
   padding: 3rem;
+
+  @media screen and (max-width: 425px) {
+    width: 100vw;
+  }
 `;
 
 export const HQSList = styled.ul`
   display: grid;
   grid-gap: 5rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   list-style: none;
 
   img {
-    width: 100%;
+    max-height: 240px;
+    object-fit: contain;
+    background-color: red;
+    transition: 0.5s ease;
   }
 
   div {
-    background-color: #000;
-    border-radius: 0 0 1rem 1rem;
+    display: flex;
+    background-color: #111;
+    border-radius: 1rem;
     cursor: pointer;
     transition: 0.2s ease-in;
-    padding-bottom: 1rem;
+    padding: 1.6rem 2.4rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     &:hover {
       transform: scale(1.05);
@@ -70,5 +81,10 @@ export const HQSList = styled.ul`
   footer {
     display: flex;
     align-items: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
   }
 `;
