@@ -1,10 +1,10 @@
 import axios from "axios";
 import md5 from "md5";
 
-const publicKey = "3c75759d4276fb2d46a10634eeac878b";
+export const publicKey = "3c75759d4276fb2d46a10634eeac878b";
 const privateKey = "067b45042caf8ffa44c1821331cea779e847fd39";
-const ts = Number(new Date());
-const hash = md5(ts + privateKey + publicKey);
+export const ts = Number(new Date());
+export const hash = md5(ts + privateKey + publicKey);
 
 export const getComicList = () => {
   const response = axios

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SearchContainer = styled.div`
   display: flex;
   margin: 0px auto;
-  margin-left: 14rem;
+  margin-left: 7.5rem;
   padding: 0 20px;
   align-items: center;
 
